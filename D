@@ -1,0 +1,41 @@
+def check_login():
+    # correct login details
+    correct_username = "mohsalisu"
+    correct_password = "larbunadarbun"
+
+    # user input
+    entered_username = input("Enter Username Please :")
+    entered_password = input("Password Enter Here 8:")
+
+    # show what the user typed
+    print(f"Username entered: {entered_username}")
+    print(f"Password entered: {entered_password}")
+
+    if entered_username == correct_username and entered_password == correct_password:
+        print("Welcome to the Kaduna Publishing Company!")
+        print(r"""∧,,,∧
+（ ・ω・） I like milkshake!
+( つ旦O
+と＿)_)
+∧,,,∧
+（ ・◎・） slrrrp
+(　ﾞノ ヾ
+と＿)_)
+ ∧,,,∧
+(・ω・） Hmm, tastes like prion disease...
+( つ旦O
+と＿)_)
+∧,,,∧
+（ ・ω・）
+( つ　O. __
+と＿)_)（__(）､;.o：。
+ﾟ*･:.｡
+_ _　 ξ
+(´ 　 ｀ヽ、  　　  __
+⊂,_と（　 　 ）⊃　 （__(）､;.o：。
+Ｖ　Ｖ　　　　　　 　 　 ﾟ*･:.｡""")
+    else:
+        print("ayo bro thats sus wrong login details, try again")
+
+
+check_login()
