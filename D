@@ -39,8 +39,6 @@ _ _　 ξ
 Ｖ　Ｖ　　　　　　 　 　 ﾟ*･:.｡""")
     else:
         print("ayo bro thats sus wrong login details, try again")
-        image = from_url("https://imgs.search.brave.com/4Il0LU4o1vzTZNIGCELF3bO6TVRCHPKMbLOWOe1bmCs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS1w/aG90by9veGZvcmQt/dWstMDQyODIwMjAt/bWlrZS1pa2UtMjYw/bnctMTcxODIzNzQw/NC5qcGc")
-        image.draw()
-
+        displayimage = from_url("https://preview.redd.it/i-am-opsec-v0-senj7v0aw04h1.jpeg?auto=webp&s=c69bb13ae3c04c1de12b2e00fd0b9dcebda45348")
 
 check_login()
