@@ -1,7 +1,3 @@
-from term_image.image import from_url, AutoImage
-from PIL import Image
-
-
 def check_login():
     # correct login details
     correct_username = "mohsalisu"
@@ -17,13 +13,14 @@ def check_login():
 
     if entered_username == correct_username and entered_password == correct_password:
         print("Welcome to the Kaduna Publishing Company!")
-       
         print(r"""∧,,,∧
 （ ・ω・） I like milkshake!
-( （ ・◎・） slrrrp
+( つ旦O
+と＿)_)
+∧,,,∧
+（ ・◎・） slrrrp
 (　ﾞノ ヾ
 と＿)_)
-
  ∧,,,∧
 (・ω・） Hmm, tastes like prion disease...
 ( つ旦O
@@ -39,8 +36,6 @@ _ _　 ξ
 Ｖ　Ｖ　　　　　　 　 　 ﾟ*･:.｡""")
     else:
         print("ayo bro thats sus wrong login details, try again")
-        image = from_url("https://imgs.search.brave.com/4Il0LU4o1vzTZNIGCELF3bO6TVRCHPKMbLOWOe1bmCs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS1w/aG90by9veGZvcmQt/dWstMDQyODIwMjAt/bWlrZS1pa2UtMjYw/bnctMTcxODIzNzQw/NC5qcGc")
-        image.draw()
 
 
 check_login()
