@@ -10,7 +10,7 @@ def check_login():
     # show what the user typed
     print(f"Username entered: {entered_username}")
     print(f"Password entered: {entered_password}")
-
+opsec
     if entered_username == correct_username and entered_password == correct_password:
         print("Welcome to the Kaduna Publishing Company!")
         print(r"""∧,,,∧
